@@ -5,8 +5,8 @@
     //     "source=${localWorkspaceFolder}/ansible_collections/arista/avd,target=/home/avd/.ansible/collections/ansible_collections/arista/avd,type=bind"
     // ],
     "containerEnv": {
-        "AVD_GITHUB_REPO": "bjmeuer/uplink_portchannel_id",
-        "AVD_BRANCH_NAME": "devel"
+        "AVD_GITHUB_REPO": "bjmeuer/ansible-avd",
+        "AVD_BRANCH_NAME": "uplink_portchannel_id"
     },
     // run entrypoint script manually as it's ignored by dev container CLI otherwise
     // the dev entrypoint is used to install ansible collections and requirements, as they are not included with the dev version
