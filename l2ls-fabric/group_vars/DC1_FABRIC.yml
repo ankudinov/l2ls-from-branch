@@ -32,8 +32,6 @@ spine:
     spanning_tree_priority: 4096
     mlag_peer_ipv4_pool: 192.168.0.0/24
     mlag_interfaces: [Ethernet47, Ethernet48]
-    # uplink_port_channel_id: 111
-    # uplink_switch_port_channel_id: 222
   node_groups:
     - group: SPINES
       nodes:
@@ -54,7 +52,8 @@ leaf:
     mlag_interfaces: [Ethernet47, Ethernet48]
     spanning_tree_mode: mstp
     spanning_tree_priority: 16384
-
+    # uplink_port_channel_id: 111
+    # uplink_switch_port_channel_id: 222
   node_groups:
     - group: RACK1
       mlag: true
